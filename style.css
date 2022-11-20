@@ -1,0 +1,42 @@
+.wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 27ch;
+    animation: typing 3s steps(30), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  body{
+    background-color: #d0ddd7;
+  }
+  header{
+    width: 100%;
+    background-color: #1e1e24;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+  }
+  header li{
+    color: gray;
+    
+  }
