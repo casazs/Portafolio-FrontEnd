@@ -13,17 +13,20 @@ p{
 }
 h1{
     color:#E4E6C3;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* Style in Photo*/
 
-    @media(min-width: 576px){
+    @media(min-width: 1024px){
         #foto_perfil{
                 position: absolute;
-                width: 16%;
-                border-radius: 70%;
+                width: 20%;
+                border-radius: 60%;
                 box-shadow: 1px 1px 1px #E4E6C3;
-                top: 580px; /*I want mi Photo in half banner and the About me*/
+                top: 650px; /*I want mi Photo in half banner and the About me*/
         }
     }
+
+
     
 
