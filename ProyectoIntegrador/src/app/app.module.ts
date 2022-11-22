@@ -13,6 +13,7 @@ import { EducationComponent } from './components/education/education.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ExperienceComponent,
     EducationComponent,
     SkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,
